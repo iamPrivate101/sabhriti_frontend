@@ -35,16 +35,27 @@
         font-family: Roboto;
         color: #ffffff;
       }
+      body {
+        background: #151719;
+      }
+      .text-primary {
+        color: #53c4c8 !important;
+      }
+      .text-sabhriti {
+        color: #ee3668 !important;
+      }
     </style>
 
     <div class="container-fluid vh-100 p-0 m-0">
       <img
         src="images/top-backgound.png"
-        class="img-fluid w-100 h-100 position-relative"
-        style="object-fit: cover; background-color: #141416"
+        class="img-fluid w-100 h-100 position-relative object-fit-cover"
+        style="background-color: #141416"
       />
-      <div class="container-fluid position-absolute top-0 start-0 w-100 py-3">
-        <nav class="navbar navbar-expand-lg mx-5">
+      <div
+        class="container-fluid position-absolute top-0 start-0 w-100 py-3 z-3"
+      >
+        <nav class="navbar navbar-expand-lg mx-2 mx-md-5 navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand m-0" href="javascript:void(0)">
               <img
@@ -56,7 +67,7 @@
               <span class="ps-3 fw-bold align-self-center"> Sabhriti</span>
             </a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler text-white"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -116,7 +127,7 @@
       </div>
 
       <div class="container position-absolute top-50 start-50 translate-middle">
-        <div class="row">
+        <div class="row px-3 px-md-0">
           <div class="col-12 col-md-6">
             <div class="display-5 fw-bold">
               Digitalization & Process Automation
@@ -137,6 +148,96 @@
       </div>
     </div>
 
-    <div>hbkjsa</div>
+    <section class="container position-relative py-5">
+      <div class="row border border-dark">
+
+        <div class="col-md-6 p-5 position-relative border border-warning">
+          <div class="row border border-danger">
+            
+            <!-- First Card (Top Left) -->
+            <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+              <div class="card bg-dark w-100" style="max-width: 18rem;">
+                <div class="card-body text-center">
+                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="" />
+                  <h5 class="card-title text-primary my-3">Design</h5>
+                  <p class="card-text">
+                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
+                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                  </p>
+                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Second Card (Top Right) -->
+            <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+              <div class="card bg-dark w-100" style="max-width: 18rem;">
+                <div class="card-body text-center">
+                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="Card image cap" />
+                  <h5 class="card-title text-primary my-3">Design</h5>
+                  <p class="card-text">
+                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
+                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                  </p>
+                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Third Card (Bottom Left) -->
+            <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+              <div class="card bg-dark w-100" style="max-width: 18rem;">
+                <div class="card-body text-center">
+                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="Card image cap" />
+                  <h5 class="card-title text-primary my-3">Design</h5>
+                  <p class="card-text">
+                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
+                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                  </p>
+                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Fourth Card (Bottom Right) -->
+            <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+              <div class="card bg-dark w-100" style="max-width: 18rem;">
+                <div class="card-body text-center">
+                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="Card image cap" />
+                  <h5 class="card-title text-primary my-3">Design</h5>
+                  <p class="card-text">
+                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
+                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                  </p>
+                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        
+
+        <div class="col-md-6 position-relative">
+          <img
+            src="images/digitize-background.png"
+            class="img-fluid object-fit-cover w-100 h-100"
+          />
+          <div
+            class="container position-absolute top-50 start-50 translate-middle p-5"
+          >
+            <div class="display-5 fw-bold">Digitalize Business</div>
+            <div class="py-3">
+              We start with workshops to develop Ubiquitous Language to explain
+              business requirements. The development will follow by implementing
+              the semantics of this language backed with automated tests and
+              Continuous Integration. Continuous delivery with cloud
+              infrastructures answers every problems that appear thereafter.
+              These deliveries are then constantly with monitoring platforms.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
