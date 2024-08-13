@@ -14,6 +14,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--    <link href="https://cdn.jsdelivr.net/npm/fastbootstrap@2.2.0/dist/css/fastbootstrap.min.css" rel="stylesheet"-->
     <!--          integrity="sha256-V6lu+OdYNKTKTsVFBuQsyIlDiRWiOmtC8VQ8Lzdm2i4=" crossorigin="anonymous">-->
 
@@ -38,6 +45,10 @@
       body {
         background: #151719;
       }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
       .text-primary {
         color: #53c4c8 !important;
       }
@@ -46,7 +57,7 @@
       }
     </style>
 
-    <div class="container-fluid vh-100 p-0 m-0">
+    <section class="container-fluid vh-100 p-0 m-0">
       <img
         src="images/top-backgound.png"
         class="img-fluid w-100 h-100 position-relative object-fit-cover"
@@ -146,79 +157,122 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <!-- about -->
     <section class="container position-relative py-5">
       <div class="row border border-dark">
+        <div class="col-md-6 p-5 position-relative">
+          <div class="row">
+            <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
+              <div class="card bg-dark w-100" style="max-width: 18rem">
+                <div class="card-body">
+                  <img
+                    class="img-fluid"
+                    width="40"
+                    height="40"
+                    src="images/icon2.png"
+                    alt=""
+                  />
+                  <h5 class="card-title text-primary my-3">Design</h5>
+                  <p class="card-text">
+                    From Strategic Event Storming to Tactical Design. Designs
+                    with foundations on principles of
+                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                  </p>
+                  <img
+                    src="images/footer-line.png"
+                    class="img-fluid w-100 object-fit-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
 
-        <div class="col-md-6 p-5 position-relative border border-warning">
-          <div class="row border border-danger">
-            
-            <!-- First Card (Top Left) -->
             <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
-              <div class="card bg-dark w-100" style="max-width: 18rem;">
-                <div class="card-body text-center">
-                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="" />
-                  <h5 class="card-title text-primary my-3">Design</h5>
+              <div class="card bg-dark w-100" style="max-width: 18rem">
+                <div class="card-body">
+                  <img
+                    class="img-fluid"
+                    width="40"
+                    height="40"
+                    src="images/icon2.png"
+                    alt="Card image cap"
+                  />
+                  <h5 class="card-title text-primary my-3">Develop</h5>
                   <p class="card-text">
-                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
-                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                    Following
+                    <span class="text-sabhriti">lean software development</span>
+                    principles, we make sure that the development answers what
+                    process requires.
                   </p>
-                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+                  <img
+                    src="images/footer-line.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
-            
-            <!-- Second Card (Top Right) -->
+
             <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
-              <div class="card bg-dark w-100" style="max-width: 18rem;">
-                <div class="card-body text-center">
-                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="Card image cap" />
-                  <h5 class="card-title text-primary my-3">Design</h5>
+              <div class="card bg-dark w-100" style="max-width: 18rem">
+                <div class="card-body">
+                  <img
+                    class="img-fluid"
+                    width="40"
+                    height="40"
+                    src="images/icon2.png"
+                    alt="Card image cap"
+                  />
+                  <h5 class="card-title text-primary my-3">Deliver</h5>
                   <p class="card-text">
-                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
-                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                    Using
+                    <span class="text-sabhriti"
+                      >Cloud based infrastructures,</span
+                    >
+                    we make sure the solutions are delivered to scale and are
+                    close to businesses and their customers.
                   </p>
-                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+                  <img
+                    src="images/footer-line.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
-            
-            <!-- Third Card (Bottom Left) -->
+
             <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
-              <div class="card bg-dark w-100" style="max-width: 18rem;">
-                <div class="card-body text-center">
-                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="Card image cap" />
-                  <h5 class="card-title text-primary my-3">Design</h5>
+              <div class="card bg-dark w-100" style="max-width: 18rem">
+                <div class="card-body">
+                  <img
+                    class="img-fluid"
+                    width="40"
+                    height="40"
+                    src="images/icon2.png"
+                    alt="Card image cap"
+                  />
+                  <h5 class="card-title text-primary my-3">Monitor</h5>
                   <p class="card-text">
-                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
-                    <span class="text-sabhriti"> Domain Driven Design</span>.
+                    Gathering & storing metrics, events, logs, and traces in
+                    real-time enables us to use
+                    <span class="text-sabhriti"> data-driven approach</span>
+                    to adhere to the SLA’s.
                   </p>
-                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
+
+                  <img
+                    src="images/footer-line.png"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
-            
-            <!-- Fourth Card (Bottom Right) -->
-            <div class="col-12 col-md-6 p-2 d-flex justify-content-center">
-              <div class="card bg-dark w-100" style="max-width: 18rem;">
-                <div class="card-body text-center">
-                  <img class="img-fluid" width="40" height="40" src="images/icon2.png" alt="Card image cap" />
-                  <h5 class="card-title text-primary my-3">Design</h5>
-                  <p class="card-text">
-                    From Strategic Event Storming to Tactical Design. Designs with foundations on principles of
-                    <span class="text-sabhriti"> Domain Driven Design</span>.
-                  </p>
-                  <img src="images/footer-line.png" class="img-fluid w-100" alt="">
-                </div>
-              </div>
-            </div>
-        
           </div>
         </div>
-        
 
-        <div class="col-md-6 position-relative">
+        <div class="col-md-6 position-relative mt-5 mt-md-0">
           <img
             src="images/digitize-background.png"
             class="img-fluid object-fit-cover w-100 h-100"
@@ -239,5 +293,388 @@
         </div>
       </div>
     </section>
+
+    <!-- business -->
+    <section class="container">
+      <div class="row border border-danger">
+        <div class="col-12 col-md-6 bg-dark position-relative">
+          <img
+            src="images/digitize-background.png"
+            class="img-fluid object-fit-cover w-100 px-4"
+          />
+          <div
+            class="container position-absolute top-50 start-50 translate-middle p-5"
+          >
+            <div class="display-5 fw-bold px-2">
+              Automate business Processes
+            </div>
+            <div class="py-3 px-2">
+              We start with workshops and develop an
+              <span class="text-sabhriti">Ubiquitous Language</span> to explain
+              business requirements. The development will then follow by
+              implementing the semantics of this language & backing them with
+              automated tests and Continuous Integration.
+              <span class="text-sabhriti">Continuous delivery</span> features is
+              carried out using the automated deployment pipelines in the cloud
+              infrastructures. These deliveries are then constantly with
+              monitoring platforms.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <img
+            src="images/group.png"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md-6 border border-dark position-relative p-3">
+          <img
+            src="images/infrastructure.png"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt=""
+          />
+          <div class="h3 fw-bold position-absolute top-50 ps-5">
+            <p class="text-secondary mt-5">
+              Digitalization & Process Automation
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 border border-dark position-relative p-3">
+          <img
+            src="images/security.png"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt=""
+          />
+          <div class="h3 fw-bold position-absolute top-50 ps-5">
+            <p class="text-secondary mt-5">IT Service & Security</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-4 border border-dark position-relative p-3">
+          <img
+            src="images/agile.png"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt=""
+          />
+          <div class="h3 fw-bold position-absolute top-50 ps-5 ps-md-3">
+            <p class="text-secondary mt-5">Agile Development</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 border border-dark position-relative p-3">
+          <img
+            src="images/devops.png"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt=""
+          />
+          <div class="h3 fw-bold position-absolute top-50 ps-5 ps-md-3">
+            <p class="text-secondary mt-5">Devops</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 border border-dark position-relative p-3">
+          <img
+            src="images/software-development.png"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt=""
+          />
+          <div class="h3 fw-bold position-absolute top-50 ps-5 ps-md-3">
+            <p class="text-secondary mt-5">Software Development</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs -->
+    <section class="container pb-5">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-2 h2">Blogs</div>
+        <div class="col-3 col-md-2 d-flex justify-content-end">
+          <a href="#" class="text-sabhriti">VIEW ALL</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-12 col-sm-2 col-md-3 pt-2 pt-md-0">
+          <div class="card bg-dark" style="width: 100%">
+            <div class="position-relative" style="padding-bottom: 100%">
+              <img
+                class="img-fluid object-fit-cover w-100 h-100 p-2 position-absolute top-0 start-0"
+                width="100"
+                src="images/agile.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body">
+              <p>2024/04/20</p>
+              <h5 class="card-title text-primary">
+                Unlocking the Power of Digital Transformation
+              </h5>
+              <p class="card-text">
+                Discover how digital automation can revolutionize your business
+                processes, boost efficiency, and reduce costs. Explore key
+                strategies and success stories.
+              </p>
+              <a href="#" class="text-sabhriti"
+                >Read More
+                <span
+                  ><i
+                    class="fa fa-arrow-right text-sabhriti"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-2 col-md-3 pt-2 pt-md-0">
+          <div class="card bg-dark" style="width: 100%">
+            <div class="position-relative" style="padding-bottom: 100%">
+              <img
+                class="img-fluid object-fit-cover w-100 h-100 p-2 position-absolute"
+                width="100"
+                src="images/article1.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body">
+              <p>2024/04/20</p>
+              <h5 class="card-title text-primary">
+                Unlocking the Power of Digital Transformation
+              </h5>
+              <p class="card-text">
+                Discover how digital automation can revolutionize your business
+                processes, boost efficiency, and reduce costs. Explore key
+                strategies and success stories.
+              </p>
+              <a href="#" class="text-sabhriti"
+                >Read More
+                <span
+                  ><i
+                    class="fa fa-arrow-right text-sabhriti"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-2 col-md-3 pt-2 pt-md-0">
+          <div class="card bg-dark" style="width: 100%">
+            <div class="position-relative" style="padding-bottom: 100%">
+              <img
+                class="img-fluid object-fit-cover w-100 h-100 position-absolute p-2"
+                src="images/article3.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body">
+              <p>2024/04/20</p>
+              <h5 class="card-title text-primary">
+                Unlocking the Power of Digital Transformation
+              </h5>
+              <p class="card-text">
+                Discover how digital automation can revolutionize your business
+                processes, boost efficiency, and reduce costs. Explore key
+                strategies and success stories.
+              </p>
+              <a href="#" class="text-sabhriti"
+                >Read More
+                <span
+                  ><i
+                    class="fa fa-arrow-right text-sabhriti"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-2 col-md-3 pt-2 pt-md-0">
+          <div class="card bg-dark" style="width: 100%">
+            <div class="position-relative" style="padding-bottom: 100%">
+              <img
+                class="img-fluid object-fit-cover w-100 h-100 p-2 position-absolute"
+                src="images/article3.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body">
+              <p>2024/04/20</p>
+              <h5 class="card-title text-primary">
+                Unlocking the Power of Digital Transformation
+              </h5>
+              <p class="card-text">
+                Discover how digital automation can revolutionize your business
+                processes, boost efficiency, and reduce costs. Explore key
+                strategies and success stories.
+              </p>
+              <a href="#" class="text-sabhriti"
+                >Read More
+                <span
+                  ><i
+                    class="fa fa-arrow-right text-sabhriti"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer` -->
+    <footer>
+      <div class="container">
+        <div class="row py-5">
+          <div
+            class="col-12 col-md-4 p-0 m-0 position-relative border border-secondary"
+          >
+            <img
+              src="images/background.png"
+              class="img-fluid w-100 h-100 object-fit-cover"
+              alt=""
+            />
+            <div class="h3 fw-bold position-absolute top-50 ps-4">Contact</div>
+          </div>
+
+          <div class="col-12 col-md-8 border border-secondary">
+            <div
+              class="row justify-content-around align-items-center px-4 py-3"
+            >
+              <div class="col-12 col-md-4">
+                <div class="card bg-dark w-100" style="width: 100%">
+                  <div class="position-relative" style="padding-bottom: 100%">
+                    <img
+                      class="img-fluid object-fit-contain w-100 h-100 p-2 position-absolute"
+                      width="100"
+                      src="images/nepal_map.png"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-primary my-3">
+                      Taplejung, Nepal
+                    </h5>
+                    <p class="card-text mb-1">Fungling-4, Taplejung</p>
+                    <p class="card-text mb-1">
+                      <a
+                        href="mailto:taplejung@sabhriti.com"
+                        class="text-white"
+                      >
+                        taplejung@sabhriti.com
+                      </a>
+                    </p>
+                    <p class="card-text mb-3">
+                      <a href="tel:+977024460368" class="text-white">
+                        +977 024-460368
+                      </a>
+                    </p>
+                    <img
+                      src="images/footer-line.png"
+                      class="img-fluid w-100"
+                      alt="Decorative line"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="card bg-dark w-100" style="width: 100%">
+                  <div class="position-relative" style="padding-bottom: 100%">
+                    <img
+                      class="img-fluid object-fit-contain w-100 h-100 p-2 position-absolute"
+                      width="100"
+                      src="images/nepal_map.png"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-primary my-3">
+                      Lalitpur, Nepal
+                    </h5>
+                    <p class="card-text mb-1">jawalakhel-4, Lalitpur</p>
+                    <p class="card-text mb-1">
+                      <a href="mailto:lalitpur@sabhriti.com" class="text-white">
+                        lalitpur@sabhriti.com
+                      </a>
+                    </p>
+                    <p class="card-text mb-3">
+                      <a href="tel:+977024460368" class="text-white">
+                        +977 024-4603111
+                      </a>
+                    </p>
+                    <img
+                      src="images/footer-line.png"
+                      class="img-fluid w-100"
+                      alt="Decorative line"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="card bg-dark w-100" style="width: 100%">
+                  <div class="position-relative" style="padding-bottom: 100%">
+                    <img
+                      class="img-fluid object-fit-contain w-100 h-100 p-2 position-absolute"
+                      width="100"
+                      src="images/germany_map.png"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-primary my-3">Köln, Germany</h5>
+                    <p class="card-text mb-1">Frankfurter Str. 214,</p>
+                    <p class="card-text mb-1">
+                      <a href="mailto:koeln@sabhriti.com" class="text-white">
+                        koeln@sabhriti.com
+                      </a>
+                    </p>
+                    <p class="card-text mb-3">
+                      <a href="tel:+49 176-80369279" class="text-white">
+                        +49 176-80369279
+                      </a>
+                    </p>
+                    <img
+                      src="images/footer-line.png"
+                      class="img-fluid w-100"
+                      alt="Decorative line"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container p-3">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; 2024, Sabhriti Solutions
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end"
+          >
+            <div class="d-flex flex-column flex-md-row text-center">
+              <a href="#" class="mb-2 mb-md-0 mx-md-2">Terms & Conditions</a>
+              <a href="#" class="mx-md-2">Privacy Statement</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container-fluid"
+        style="background: #ee3668; height: 20px"
+      ></div>
+    </footer>
   </body>
 </html>
